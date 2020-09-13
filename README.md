@@ -1,6 +1,7 @@
 ## C++ Game Engine
 
-## Usage:
+<a href="https://github.com/assimp/assimp/releases/tag/v5.0.0">Assimp</a>
+
 ### Build:
 
 To build the solution, you need to download all the dependencies and extract them into the "external" folder.
