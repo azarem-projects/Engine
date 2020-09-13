@@ -1,6 +1,5 @@
 ## C++ Game Engine
 
-## Usage:
 ### Build:
 
 ```sh
