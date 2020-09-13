@@ -3,6 +3,8 @@
 ## Usage:
 ### Build:
 
+To build the solution, you need to download all the dependencies and extract them into the "external" folder.
+
 ```sh
     mkdir build
     cd build
