@@ -1,5 +1,7 @@
 ## C++ Game Engine
 
+<a href="https://github.com/assimp/assimp/releases/tag/v5.0.0">Assimp</a>
+
 ### Build:
 
 ```sh
