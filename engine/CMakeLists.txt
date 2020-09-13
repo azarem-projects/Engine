@@ -1,13 +1,14 @@
 cmake_minimum_required(VERSION 3.16)
 
-add_executable(engine src/main.cpp)
+set(PROJECT_NAME engine)
 
-target_include_directories(engine PRIVATE ../external/glew/include)
-target_include_directories(engine PRIVATE ../external/glfw/include)
-target_include_directories(engine PRIVATE ../external/assimp/include)
-target_include_directories(engine PRIVATE ../api/src)
+file(GLOB ENGINE_SRC
+    src/*.cpp
+    src/**/*.cpp
+)
 
-target_link_libraries(engine glew_s)
-target_link_libraries(engine glfw)
-target_link_libraries(engine assimp)
-target_link_libraries(engine api)
+add_executable(engine ${ENGINE_SRC})
+
+target_include_directories(${PROJECT_NAME} PRIVATE ../api/src)
+
+target_link_libraries(${PROJECT_NAME} api)
