@@ -1,6 +1,11 @@
 ## C++ Game Engine
 
-<a href="https://github.com/assimp/assimp/releases/tag/v5.0.0">Assimp</a>
+### External dependencies:
+
+* <a href="https://github.com/assimp/assimp/releases/tag/v5.0.0">Assimp-5.0.0</a>
+* <a href="https://github.com/nigels-com/glew/releases/tag/glew-2.1.0">GLEW-2.1.0</a>
+* <a href="https://github.com/glfw/glfw/releases/tag/3.3.2">GLFW-3.3.2</a>
+
 
 ### Build:
 
