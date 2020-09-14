@@ -6,6 +6,8 @@
 * <a href="https://github.com/nigels-com/glew/releases/tag/glew-2.1.0">GLEW-2.1.0</a>
 * <a href="https://github.com/glfw/glfw/releases/tag/3.3.2">GLFW-3.3.2</a>
 
+By default all the dependencies need to be stored in the folder "external" in the root. The path to this folder can be changed in CMakeLists.txt. In order to do so, I provided all the paths as variables, e.g. GLEW_PATH, GLEW_INCLUDE_DIR, GLFW_PATH, ASSIMP_PATH and so on.
+
 
 ### Build:
 
