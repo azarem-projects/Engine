@@ -39,3 +39,11 @@ In order to build the solution, you need to download all the dependencies and ex
 ### Windows:
 
 Open the generated .sln file in Visual Studio (make sure you use the latest version) and build the entire solution. Make sure you set "engine" as Startup Project.
+
+### Software used:
+
+#### Building:
+
+* CMake 3.16.3
+* clang 10.0.1-1~oibaf~f
+* 
