@@ -45,5 +45,4 @@ Open the generated .sln file in Visual Studio (make sure you use the latest vers
 #### Building:
 
 * CMake 3.16.3
-* clang 10.0.1-1~oibaf~f
-* 
+* clang 10.0.1-1\~oibaf\~f
