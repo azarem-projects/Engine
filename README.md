@@ -42,7 +42,14 @@ Open the generated .sln file in Visual Studio (make sure you use the latest vers
 
 ### Software used:
 
-#### Building:
+#### Build & Compilation & Editing:
 
+* VSCode 1.49.0
 * CMake 3.16.3
 * clang 10.0.1-1\~oibaf\~f
+
+#### Project:
+
+* Assimp 5.0.0
+* GLEW 2.1.0
+* GLFW 3.3.2
