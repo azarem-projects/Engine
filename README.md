@@ -8,11 +8,13 @@
 
 By default all the dependencies need to be stored in the folder "external" in the root. The path to this folder can be changed in CMakeLists.txt. In order to do so, I provided all the paths as cmake-variables:
 
-```sh
+```cmake
     GLEW_PATH
     GLEW_INCLUDE_DIR
+    
     GLFW_PATH
     GLFW_INCLUDE_DIR
+    
     ASSIMP_PATH
     ASSIMP_INCLUDE_DIR
 ```
