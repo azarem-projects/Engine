@@ -22,7 +22,7 @@ By default, all the dependencies need to be stored in the folder "external" in t
 
 ### Build:
 
-To build the solution, you need to download all the dependencies and extract them into the "external" folder.
+In order to build the solution, you need to download all the dependencies and extract them into the "external" folder.
 
 ```sh
     mkdir build
