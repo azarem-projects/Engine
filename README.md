@@ -38,4 +38,4 @@ In order to build the solution, you need to download all the dependencies and ex
 
 ### Windows:
 
-Open the generated solution in Visual Studio (make sure you use the latest version) and build the entire solution. Make sure you set "engine" as Startup Project.
+Open the generated .sln file in Visual Studio (make sure you use the latest version) and build the entire solution. Make sure you set "engine" as Startup Project.
