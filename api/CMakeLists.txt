@@ -17,8 +17,10 @@ add_library(${PROJECT_NAME} ${API_SRC})
 target_include_directories(${PROJECT_NAME} PRIVATE ../${GLEW_INCLUDE_DIR})
 target_include_directories(${PROJECT_NAME} PRIVATE ../${GLFW_INCLUDE_DIR})
 target_include_directories(${PROJECT_NAME} PRIVATE ../${ASSIMP_INCLUDE_DIR})
+target_include_directories(${PROJECT_NAME} PRIVATE ../${SPDLOG_INCLUDE_DIR})
 
 # Dependencies.
 target_link_libraries(${PROJECT_NAME} glew_s)
 target_link_libraries(${PROJECT_NAME} glfw)
 target_link_libraries(${PROJECT_NAME} assimp)
+target_link_libraries(${PROJECT_NAME} spdlog)
