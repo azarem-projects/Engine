@@ -1,0 +1,5 @@
+set(BUILD_SHARED_LIBS           OFF)
+set(ASSIMP_BUILD_ASSIMP_TOOLS   OFF)
+set(ASSIMP_BUILD_TESTS          OFF)
+
+set(BUILD_UTILS                 OFF)

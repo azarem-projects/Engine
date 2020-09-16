@@ -1,0 +1,36 @@
+set(EXTERNAL_FOLDER external)
+set(PACKAGES_FOLDER packages)
+
+set(LIBRARIES_LIST
+    assimp-5.0.0
+    glew-2.1.0/build/cmake
+    glfw-3.3.2
+    glm-0.9.9.8
+    spdlog-1.x
+)
+
+set(ASSIMP_LOCATION ${EXTERNAL_FOLDER}/assimp-5.0.0)
+set(ASSIMP_INCLUDE_DIR ${ASSIMP_LOCATION}/include)
+
+set(GLEW_LOCATION ${EXTERNAL_FOLDER}/glew-2.1.0)
+set(GLEW_INCLUDE_DIR ${GLEW_LOCATION}/include)
+
+set(GLFW_LOCATION ${EXTERNAL_FOLDER}/glfw-3.3.2)
+set(GLFW_INCLUDE_DIR ${GLFW_LOCATION}/include)
+
+set(GLM_LOCATION ${EXTERNAL_FOLDER}/glm-0.9.9.8)
+set(GLM_INCLUDE_DIR ${GLM_LOCATION}/include)
+
+set(SPDLOG_LOCATION ${EXTERNAL_FOLDER}/spdlog-1.x)
+set(SPDLOG_INCLUDE_DIR ${SPDLOG_LOCATION}/include)
+
+set(PACKAGES_LIST
+    api
+    debugging
+)
+
+set(API_LOCATION ${PACKAGES_FOLDER}/api)
+set(API_INCLUDE_DIR ${API_LOCATION}/include)
+
+set(DEBUGGING_LOCATION ${PACKAGES_FOLDER}/debugging)
+set(DEBUGGING_INCLUDE_DIR ${DEBUGGING_LOCATION}/src)
