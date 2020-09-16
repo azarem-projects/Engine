@@ -15,3 +15,5 @@ target_link_libraries(${PROJECT_NAME} debugging)
 target_link_libraries(${PROJECT_NAME} glew_s)
 target_link_libraries(${PROJECT_NAME} glfw)
 target_include_directories(${PROJECT_NAME} PRIVATE ../../packages/debugging/src)
+
+target_include_directories(${PROJECT_NAME} PRIVATE ${GLEW_INCLUDE_DIR})
